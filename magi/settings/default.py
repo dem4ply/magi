@@ -18,7 +18,6 @@ from .cors.default import *
 from .database.default import DATABASES
 from .logger.default import LOGGING
 from .elasticsearch.default import connections
-from .madconnect.default import *
 
 ROOT_URLCONF = 'magi.urls'
 

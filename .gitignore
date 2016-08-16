@@ -1,6 +1,9 @@
 *.pyc
 __pycache__
 
+*.swp
+*.swo
+
 venv
 .coverage
 coverage
