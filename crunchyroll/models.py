@@ -5,13 +5,15 @@ from .analizers import spanish_analizer
 
 #@crunchyroll_news_es_mx.doc_type
 class Videos( InnerObjectWrapper ):
-    link = String( index='not_analyzed', store=True )
+    pass
+    #link = String( index='not_analyzed', store=True )
 
 
 #@crunchyroll_news_es_mx.doc_type
 class Tags( InnerObjectWrapper ):
-    link = String( index='not_analyzed', store=True )
-    title = String( index='analyzed', store=True )
+    pass
+    #link = String( index='not_analyzed', store=True )
+    #title = String( index='analyzed', store=True )
 
 
 @crunchyroll_news_es_mx.doc_type
